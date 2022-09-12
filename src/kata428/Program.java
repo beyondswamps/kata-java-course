@@ -1,4 +1,4 @@
-package kata429;
+package kata428;
 
 //testing catch with break
 public class Program {
@@ -8,6 +8,8 @@ public class Program {
                 break;
             } catch (Exception e) {
                 System.out.println("catch entered the game");
+            } finally {
+                System.out.println("finally is speaking");
             }
         }
     }

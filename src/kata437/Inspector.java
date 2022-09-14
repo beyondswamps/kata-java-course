@@ -1,11 +1,14 @@
 package kata437;
 
 public class Inspector implements MailService{
+
+    public static final String WEAPONS = "weapons";
+    public static final String BANNED_SUBSTANCE = "banned substance";
     @Override
     public Sendable processMail(Sendable mail) {
         if (mail instanceof MailPackage) {
-            if (((MailPackage) mail).getContent().getContent().equals(WEAPONS)
-                    || ((MailPackage) mail).getContent().getContent().equals(BANNED_SUBSTANCE)) {
+            if (((MailPackage) mail).getContent().getContent().contains(WEAPONS)
+                    || ((MailPackage) mail).getContent().getContent().contains(BANNED_SUBSTANCE)) {
                 throw new IllegalPackageException();
             }
             if (((MailPackage) mail).getContent().getContent().contains("stones")) {

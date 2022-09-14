@@ -1,7 +1,7 @@
 package kata437;
 
 public class UntrustworthyMailWorker implements MailService{
-    private MailService realMailService = new RealMailService();
+    private RealMailService realMailService = new RealMailService();
     MailService[] mailServices;
 
     public UntrustworthyMailWorker(MailService... mailServices) {

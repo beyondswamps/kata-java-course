@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="task 437 prepared (task name corrected from 439 to 437)">
-      <change afterPath="$PROJECT_DIR$/src/kata437/Spy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata437/UntrustworthyMailWorker.java" afterDir="false" />
+    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="Classes created: UntrustworthyMailWorker, Spy, Inspector, Thief">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata437/Inspector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/Inspector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata437/Spy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/Spy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata437/UntrustworthyMailWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/UntrustworthyMailWorker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663171036750</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Classes created: UntrustworthyMailWorker, Spy, Inspector, Thief">
+      <created>1663176817388</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663176817388</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Classes created: UntrustworthyMailWorker, Spy, Inspector, Thief">
+      <created>1663176824339</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663176824339</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,7 +224,8 @@
     <MESSAGE value="429 solved" />
     <MESSAGE value="task 437 prepared" />
     <MESSAGE value="task 437 prepared (task name corrected from 439 to 437)" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 437 prepared (task name corrected from 439 to 437)" />
+    <MESSAGE value="Classes created: UntrustworthyMailWorker, Spy, Inspector, Thief" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes created: UntrustworthyMailWorker, Spy, Inspector, Thief" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

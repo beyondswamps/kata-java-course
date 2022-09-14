@@ -1,4 +1,4 @@
-package kata439;
+package kata437;
 
 public interface Sendable {
     String getFrom();

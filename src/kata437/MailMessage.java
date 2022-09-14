@@ -1,6 +1,4 @@
-package kata439;
-
-import java.util.Objects;
+package kata437;
 
 public class MailMessage extends AbstractSendable{
     private final String message;

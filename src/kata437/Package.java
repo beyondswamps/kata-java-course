@@ -1,4 +1,4 @@
-package kata439;
+package kata437;
 
 public class Package {
     private final String content;

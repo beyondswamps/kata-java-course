@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="429 solved">
-      <change afterPath="$PROJECT_DIR$/src/kata436/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata436/logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata439/AbstractSendable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata439/MailMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata439/MailPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata439/Package.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata439/Sendable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="task 437 prepared">
+      <change beforePath="$PROJECT_DIR$/src/kata439/AbstractSendable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/AbstractSendable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata439/MailMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/MailMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata439/MailPackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/MailPackage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata439/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/MailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata439/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/Package.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata439/RealMailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/RealMailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata439/Sendable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/Sendable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663080158628</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="task 437 prepared">
+      <created>1663170909475</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663170909475</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +204,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Environment made for testing exceptions for task428" />
     <MESSAGE value="429 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="429 solved" />
+    <MESSAGE value="task 437 prepared" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 437 prepared" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

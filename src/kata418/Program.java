@@ -15,14 +15,11 @@ public class Program {
         System.out.println(getCallerClassAndMethodName());
     }
     public static String getCallerClassAndMethodName() {
-        try {
-            throw new Exception();
-        } catch (Exception e) {
-            if (e.getStackTrace().length < 3) {
-                return null;
-            }
-            StackTraceElement caller = e.getStackTrace()[e.getStackTrace().length - 1];
-            return caller.getClassName() + "#" + caller.getMethodName();
+        StackTraceElement[] st = Thread.currentThread().getStackTrace();
+        if (st.length < 4) {
+            return null;
         }
+        StackTraceElement caller = st[3];
+        return caller.getClassName() + "#" + caller.getMethodName();
     }
 }

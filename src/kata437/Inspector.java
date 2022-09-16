@@ -2,8 +2,8 @@ package kata437;
 
 public class Inspector implements MailService{
 
-    public static final String WEAPONS = "weapons";
-    public static final String BANNED_SUBSTANCE = "banned substance";
+    private static final String WEAPONS = "weapons";
+    private static final String BANNED_SUBSTANCE = "banned substance";
     @Override
     public Sendable processMail(Sendable mail) {
         if (mail instanceof MailPackage) {

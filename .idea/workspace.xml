@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="Task done!">
-      <change afterPath="$PROJECT_DIR$/src/kata4review/Testing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata418/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata418/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata437/Inspector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/Inspector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata437/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/MailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata437/Spy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/Spy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata437/UntrustworthyMailWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/UntrustworthyMailWorker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Testing">
+  <component name="RunManager" selected="Application.kata418.Program">
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kata428.MainApp" />
       <module name="kata-java-course" />
@@ -132,11 +136,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kata418.Program" />
         <item itemvalue="Application.Testing" />
         <item itemvalue="Application.kata429.MainApp" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.MainApp" />
-        <item itemvalue="Application.kata418.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -234,6 +238,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="Task done!" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kata4review/Testing.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="java.lang.Exception" memberName="cause" />
@@ -246,6 +259,8 @@
         <watch expression="((Exception)((Exception)((Exception)((Exception)e.cause).cause).cause).cause).cause" custom="java.lang.Exception" />
         <watch expression="((Object[])excp.backtrace)[0]" custom="java.lang.Object[]" />
         <watch expression="((Object[])excp.backtrace)[2]" custom="java.lang.Object[]" />
+        <watch expression="e.stackTrace[1]" />
+        <watch expression="e.stackTrace[1]" />
       </configuration>
     </watches-manager>
   </component>

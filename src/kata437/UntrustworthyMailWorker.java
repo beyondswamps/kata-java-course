@@ -2,7 +2,7 @@ package kata437;
 
 public class UntrustworthyMailWorker implements MailService{
     private RealMailService realMailService = new RealMailService();
-    MailService[] mailServices;
+    private MailService[] mailServices;
 
     public UntrustworthyMailWorker(MailService... mailServices) {
         this.mailServices = mailServices;

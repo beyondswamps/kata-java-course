@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="Classes created: UntrustworthyMailWorker, Spy, Inspector, Thief">
+    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="Task done!">
+      <change afterPath="$PROJECT_DIR$/src/kata4review/Testing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata437/Inspector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/Inspector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata437/Spy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/Spy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata437/UntrustworthyMailWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/UntrustworthyMailWorker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/zee/projects/java/kata-java-course/src/kata429",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zee/projects/java/kata-java-course/src/kata429&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/kata429" />
@@ -58,7 +56,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Testing">
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kata428.MainApp" />
       <module name="kata-java-course" />
@@ -86,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kata348.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kata348.Program" />
+    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kata4review.Testing" />
       <module name="kata-java-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kata348.*" />
+          <option name="PATTERN" value="kata4review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,7 +124,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.kata348.Program" />
+      <item itemvalue="Application.Testing" />
       <item itemvalue="Application.kata418.Program" />
       <item itemvalue="Application.MainApp" />
       <item itemvalue="Application.kata429.MainApp" />
@@ -134,11 +132,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Testing" />
+        <item itemvalue="Application.kata429.MainApp" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.MainApp" />
-        <item itemvalue="Application.kata429.MainApp" />
         <item itemvalue="Application.kata418.Program" />
-        <item itemvalue="Application.kata348.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663176824339</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Task done!">
+      <created>1663177353748</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663177353748</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +230,24 @@
     <MESSAGE value="task 437 prepared" />
     <MESSAGE value="task 437 prepared (task name corrected from 439 to 437)" />
     <MESSAGE value="Classes created: UntrustworthyMailWorker, Spy, Inspector, Thief" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes created: UntrustworthyMailWorker, Spy, Inspector, Thief" />
+    <MESSAGE value="Task done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task done!" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Exception" memberName="cause" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((Exception)e.cause).stackTrace" custom="java.lang.Exception" />
+        <watch expression="e.depth" />
+        <watch expression="((Exception)((Exception)((Exception)((Exception)e.cause).cause).cause).cause).cause" custom="java.lang.Exception" />
+        <watch expression="((Object[])excp.backtrace)[0]" custom="java.lang.Object[]" />
+        <watch expression="((Object[])excp.backtrace)[2]" custom="java.lang.Object[]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

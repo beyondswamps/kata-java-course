@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="Task done!">
+      <change afterPath="$PROJECT_DIR$/src/kata527/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata418/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata418/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata437/Inspector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/Inspector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata437/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/MailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata437/Spy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/Spy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata437/UntrustworthyMailWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata437/UntrustworthyMailWorker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,17 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/zee/projects/java/kata-java-course/src/kata429&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/zee/projects/java/kata-java-course/src/kata429",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/kata429" />
@@ -60,13 +56,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.kata418.Program">
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kata428.MainApp" />
+  <component name="RunManager" selected="Application.Program">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kata527.Program" />
       <module name="kata-java-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kata428.*" />
+          <option name="PATTERN" value="kata527.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,19 +124,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Program" />
       <item itemvalue="Application.Testing" />
       <item itemvalue="Application.kata418.Program" />
-      <item itemvalue="Application.MainApp" />
       <item itemvalue="Application.kata429.MainApp" />
       <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.kata418.Program" />
         <item itemvalue="Application.Testing" />
         <item itemvalue="Application.kata429.MainApp" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MainApp" />
       </list>
     </recent_temporary>
   </component>
@@ -238,18 +234,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Task done!" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/kata4review/Testing.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="java.lang.Exception" memberName="cause" />
+        <PinnedItemInfo parentTag="java.io.FileOutputStream" memberName="fd" />
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
@@ -261,6 +249,7 @@
         <watch expression="((Object[])excp.backtrace)[2]" custom="java.lang.Object[]" />
         <watch expression="e.stackTrace[1]" />
         <watch expression="e.stackTrace[1]" />
+        <watch expression="pw.se.out" />
       </configuration>
     </watches-manager>
   </component>

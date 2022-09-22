@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="Task done!">
-      <change afterPath="$PROJECT_DIR$/src/kata527/Program.java" afterDir="false" />
+    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="Little changes to kata527 just for synchro purposes.">
+      <change afterPath="$PROJECT_DIR$/src/kata5311/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kata5312/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +57,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kata527.Program" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kata5312.Main" />
       <module name="kata-java-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kata527.*" />
+          <option name="PATTERN" value="kata5312.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,13 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kata436.Test" />
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kata527.Program" />
       <module name="kata-java-course" />
-      <option name="VM_PARAMETERS" value="-Djava.util.logging.config.file=src/kata436/logging.properties" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kata436.*" />
+          <option name="PATTERN" value="kata527.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kata429.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kata429.MainApp" />
+    <configuration name="kata5311.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kata5311.Program" />
       <module name="kata-java-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kata429.*" />
+          <option name="PATTERN" value="kata5311.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,19 +124,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Program" />
+      <item itemvalue="Application.kata5311.Program" />
       <item itemvalue="Application.Testing" />
       <item itemvalue="Application.kata418.Program" />
-      <item itemvalue="Application.kata429.MainApp" />
-      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.kata5311.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.kata418.Program" />
         <item itemvalue="Application.Testing" />
-        <item itemvalue="Application.kata429.MainApp" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663177353748</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Little changes to kata527 just for synchro purposes.">
+      <created>1663678291689</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663678291689</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +238,8 @@
     <MESSAGE value="task 437 prepared (task name corrected from 439 to 437)" />
     <MESSAGE value="Classes created: UntrustworthyMailWorker, Spy, Inspector, Thief" />
     <MESSAGE value="Task done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task done!" />
+    <MESSAGE value="Little changes to kata527 just for synchro purposes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Little changes to kata527 just for synchro purposes." />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

@@ -4,6 +4,9 @@ import java.io.IOException;
 
 public class Testing {
     public static void main(String[] args) throws Exception {
+        int[] ints = new int[]{1, 2, 3, 4};
+        ints[2] = 5;
+        System.out.println(ints[2]);
         AutocloseableTestClass.main();
 
         try (AutocloseableTestClass aut1 = new AutocloseableTestClass("aut1");

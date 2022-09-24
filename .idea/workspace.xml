@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="Little changes to kata527 just for synchro purposes.">
-      <change afterPath="$PROJECT_DIR$/src/kata5311/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata5312/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kata528/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata4review/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata4review/Testing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata527/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata527/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata5312/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata5312/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,17 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/zee/projects/java/kata-java-course/src/kata429",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zee/projects/java/kata-java-course/src/kata429&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/kata429" />
@@ -257,12 +259,16 @@
         <watch expression="((Object[])excp.backtrace)[2]" custom="java.lang.Object[]" />
         <watch expression="e.stackTrace[1]" />
         <watch expression="e.stackTrace[1]" />
-        <watch expression="pw.se.out" />
       </configuration>
     </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kata_java_course$kata528_Program.ic" NAME="kata528.Program Coverage Results" MODIFIED="1663700421610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>kata528.*</FILTER>
+    </SUITE>
   </component>
 </project>

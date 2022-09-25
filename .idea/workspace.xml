@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="Little changes to kata527 just for synchro purposes.">
-      <change afterPath="$PROJECT_DIR$/src/kata528/Program.java" afterDir="false" />
+    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="Task 5.3.12 done!">
+      <change afterPath="$PROJECT_DIR$/src/kata547/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata4review/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata4review/Testing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata527/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata527/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata5312/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata5312/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,12 +51,26 @@
       <recent name="$PROJECT_DIR$/src/kata429" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/kata547" />
       <recent name="$PROJECT_DIR$/src/kata436" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Animal">
+    <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kata547.Animal" />
+      <module name="kata-java-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kata547.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kata5312.Main" />
       <module name="kata-java-course" />
@@ -79,19 +90,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="kata527.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kata4review.Testing" />
-      <module name="kata-java-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kata4review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,19 +124,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Animal" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Program" />
       <item itemvalue="Application.kata5311.Program" />
-      <item itemvalue="Application.Testing" />
       <item itemvalue="Application.kata418.Program" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Animal" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.kata5311.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.kata418.Program" />
-        <item itemvalue="Application.Testing" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663678291689</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Task 5.3.12 done!">
+      <created>1664042164147</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664042164147</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,7 +246,8 @@
     <MESSAGE value="Classes created: UntrustworthyMailWorker, Spy, Inspector, Thief" />
     <MESSAGE value="Task done!" />
     <MESSAGE value="Little changes to kata527 just for synchro purposes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Little changes to kata527 just for synchro purposes." />
+    <MESSAGE value="Task 5.3.12 done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 5.3.12 done!" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

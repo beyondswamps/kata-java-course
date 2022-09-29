@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="Task 5.3.12 done!">
-      <change afterPath="$PROJECT_DIR$/src/kata547/Animal.java" afterDir="false" />
+    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="kata5311 first attempts">
+      <change afterPath="$PROJECT_DIR$/src/kata5review/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Animal">
+  <component name="RunManager" selected="Application.kata5review.Program">
     <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kata547.Animal" />
       <module name="kata-java-course" />
@@ -97,19 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kata418.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kata418.Program" />
-      <module name="kata-java-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kata418.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="kata5311.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kata5311.Program" />
       <module name="kata-java-course" />
@@ -123,20 +110,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kata5review.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kata5review.Program" />
+      <module name="kata-java-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kata5review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.kata5review.Program" />
       <item itemvalue="Application.Animal" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Program" />
       <item itemvalue="Application.kata5311.Program" />
-      <item itemvalue="Application.kata418.Program" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kata5review.Program" />
         <item itemvalue="Application.Animal" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.kata5311.Program" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.kata418.Program" />
       </list>
     </recent_temporary>
   </component>

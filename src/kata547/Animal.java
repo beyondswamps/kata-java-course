@@ -32,10 +32,8 @@ class Animal implements Serializable {
             for (int i = 0; i < objectsCount; i++) {
                 animals[i] = (Animal) ois.readObject();
             }
-        } catch (ClassNotFoundException cnfe) {
-            throw new IllegalArgumentException(cnfe);
-        } catch (IOException ioe) {
-            throw new IllegalArgumentException(ioe);
+        } catch (ClassNotFoundException | ClassCastException | NegativeArraySizeException | IOException e) {
+            throw new IllegalArgumentException(e);
         }
         return animals;
     }

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="kata5311 first attempts">
-      <change afterPath="$PROJECT_DIR$/src/kata5review/Program.java" afterDir="false" />
+    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="kata5review preparation">
+      <change afterPath="$PROJECT_DIR$/src/Kata6110/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kata6111/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kata619/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +228,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>

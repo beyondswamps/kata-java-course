@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="kata5review preparation">
-      <change afterPath="$PROJECT_DIR$/src/Kata6110/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata6111/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata619/Program.java" afterDir="false" />
+    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="kata6113 first attempts">
+      <change afterPath="$PROJECT_DIR$/src/kata6113/DynamicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/ArmoredBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/BigHead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/Body.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/Head.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/PlasticBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/SmallHead.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +30,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,7 +65,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.kata5review.Program">
+  <component name="RunManager" selected="Application.Robot">
     <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kata547.Animal" />
       <module name="kata-java-course" />
@@ -86,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kata527.Program" />
+    <configuration name="Robot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kata6genericsTests.Robot" />
       <module name="kata-java-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kata527.*" />
+          <option name="PATTERN" value="kata6genericsTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,19 +132,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Robot" />
       <item itemvalue="Application.kata5review.Program" />
       <item itemvalue="Application.Animal" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Program" />
       <item itemvalue="Application.kata5311.Program" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Robot" />
         <item itemvalue="Application.kata5review.Program" />
         <item itemvalue="Application.Animal" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.kata5311.Program" />
-        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +255,8 @@
     <MESSAGE value="Task done!" />
     <MESSAGE value="Little changes to kata527 just for synchro purposes." />
     <MESSAGE value="Task 5.3.12 done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 5.3.12 done!" />
+    <MESSAGE value="kata6113 first attempts" />
+    <option name="LAST_COMMIT_MESSAGE" value="kata6113 first attempts" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

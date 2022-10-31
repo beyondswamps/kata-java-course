@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="kata6113 first attempts">
-      <change afterPath="$PROJECT_DIR$/src/kata6113/DynamicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/ArmoredBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/BigHead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/Body.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/Head.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/PlasticBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/SmallHead.java" afterDir="false" />
+    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="kata6113 added add and remove methods">
+      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata6113/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata6113/DynamicArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +20,19 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/util/Collection.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/util/Collections.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/util/Optional.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,7 +67,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Robot">
+  <component name="RunManager" selected="Application.TestClass">
     <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kata547.Animal" />
       <module name="kata-java-course" />
@@ -79,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kata5312.Main" />
+    <configuration name="DynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kata6113.DynamicArray" />
       <module name="kata-java-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kata5312.*" />
+          <option name="PATTERN" value="kata6113.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kata5311.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kata5311.Program" />
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kata6genericsTests.TestClass" />
       <module name="kata-java-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kata5311.*" />
+          <option name="PATTERN" value="kata6genericsTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,19 +134,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Robot" />
-      <item itemvalue="Application.kata5review.Program" />
       <item itemvalue="Application.Animal" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.kata5311.Program" />
+      <item itemvalue="Application.DynamicArray" />
+      <item itemvalue="Application.Robot" />
+      <item itemvalue="Application.TestClass" />
+      <item itemvalue="Application.kata5review.Program" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestClass" />
+        <item itemvalue="Application.DynamicArray" />
         <item itemvalue="Application.Robot" />
         <item itemvalue="Application.kata5review.Program" />
         <item itemvalue="Application.Animal" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.kata5311.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664042164147</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="kata6113 added add and remove methods">
+      <created>1665566501504</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665566501504</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,7 +265,8 @@
     <MESSAGE value="Little changes to kata527 just for synchro purposes." />
     <MESSAGE value="Task 5.3.12 done!" />
     <MESSAGE value="kata6113 first attempts" />
-    <option name="LAST_COMMIT_MESSAGE" value="kata6113 first attempts" />
+    <MESSAGE value="kata6113 added add and remove methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="kata6113 added add and remove methods" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

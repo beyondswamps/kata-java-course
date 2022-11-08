@@ -1,6 +1,7 @@
 package kata6genericsTests;
 
 import java.util.ArrayList;
+import java.util.Set;
 
 public class TestClass<T> {
     T value1;

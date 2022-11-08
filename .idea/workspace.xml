@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="kata6113 added add and remove methods">
-      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata6genericsTests/TestClass.java" afterDir="false" />
+    <list default="true" id="b81d303d-930d-4dbf-9bb4-afc1ea5ada3d" name="Changes" comment="Task 5.4.7 done!">
+      <change afterPath="$PROJECT_DIR$/src/kata6213/SymDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kata6214/Sales.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata6113/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata6113/DynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata6genericsTests/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata6genericsTests/TestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -29,10 +29,13 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/util/Collection.java" root0="SKIP_INSPECTION" />
-    <setting file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/util/Collections.java" root0="SKIP_INSPECTION" />
-    <setting file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
-    <setting file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/util/Optional.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home/lib/src.zip!/java.base/java/io/Reader.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Iterable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collection.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Iterator.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Set.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Predicate.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,20 +70,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestClass">
-    <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kata547.Animal" />
-      <module name="kata-java-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kata547.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Sales">
     <configuration name="DynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kata6113.DynamicArray" />
       <module name="kata-java-course" />
@@ -100,6 +90,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="kata6genericsTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kata6214.Sales" />
+      <module name="kata-java-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kata6214.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,7 +137,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Animal" />
+      <item itemvalue="Application.Sales" />
       <item itemvalue="Application.DynamicArray" />
       <item itemvalue="Application.Robot" />
       <item itemvalue="Application.TestClass" />
@@ -142,11 +145,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sales" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.DynamicArray" />
         <item itemvalue="Application.Robot" />
         <item itemvalue="Application.kata5review.Program" />
-        <item itemvalue="Application.Animal" />
       </list>
     </recent_temporary>
   </component>

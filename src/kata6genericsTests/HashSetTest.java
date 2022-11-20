@@ -1,7 +1,6 @@
 package kata6genericsTests;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class HashSetTest {
     public static void main(String[] args) {
@@ -11,5 +10,10 @@ public class HashSetTest {
         addedto = stringSet.add("One");
         addedto = stringSet.add("Three");
         addedto = stringSet.add("Four");
+        Stack<String> stst = new Stack<>();
+
+        List<Integer> li = Arrays.asList(4, 5, 6);
+        List<? extends Number> ln = li;
+        ln.add(1, null);
     }
 }
